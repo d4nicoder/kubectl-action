@@ -14,6 +14,6 @@ None
 
 ## Example
 
-uses: actions/kubectl-action
+uses: actions/kubectl-alpine@1.19.2
 env:
   KUBECONFIG: ${{ secrets.KUBECONFIG }}

@@ -12,3 +12,5 @@ jobs:
         uses: ./
         env:
           KUBECONFIG: ${{ secrets.KUBECONFIG }}
+        with:
+          args: 'version'

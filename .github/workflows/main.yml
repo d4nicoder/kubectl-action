@@ -1,0 +1,12 @@
+on: [push]
+
+jobs:
+  test_version:
+    runs-on: ubuntu-latest
+    name: A job to test the action
+    steps:
+      - name: Testing kubectl
+        id: test
+        uses: ./
+        env:
+          KUBECONFIG: ${{ secrets.KUBECONFIG }}

@@ -5,6 +5,8 @@ jobs:
     runs-on: ubuntu-latest
     name: A job to test the action
     steps:
+      - name: Checkout
+        uses: actions/checkout@v2
       - name: Testing kubectl
         id: test
         uses: ./

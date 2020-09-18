@@ -1,0 +1,6 @@
+# action.yml
+name: 'Kubectl'
+description: 'Use kubectl to speak with your cluster'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'

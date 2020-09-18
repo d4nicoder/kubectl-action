@@ -14,7 +14,7 @@ None
 
 ## Example
 ```
-uses: actions/kubectl-alpine@1.19.2
+uses: actions/kubectl-alpine@v2
 env:
   KUBECONFIG: ${{ secrets.KUBECONFIG }}
 ```

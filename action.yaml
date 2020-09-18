@@ -1,6 +1,8 @@
 # action.yml
-name: 'Kubectl'
+name: 'kubectl-alpine'
 description: 'Use kubectl to speak with your cluster'
+icon: 'archive'
+color: 'blue'
 runs:
   using: 'docker'
   image: 'Dockerfile'

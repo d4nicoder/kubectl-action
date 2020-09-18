@@ -1,5 +1,5 @@
 FROM alpine:latest
-ARG VERSION
+ARG VERSION=v1.19.2
 RUN apk update \
     && apk add curl \
     && echo "Installin kubectl version: ${VERSION}" \
